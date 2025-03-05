@@ -86,13 +86,9 @@ public class Robot extends LoggedRobot {
 
         Logger.recordOutput("RobotPose", new Pose2d());
         Logger.recordOutput("ZeroedComponentPoses", new Pose3d[] {new Pose3d()});
-        Logger.recordOutput("FinalComponentPoses", 
-            new Pose3d[]{
-                new Pose3d(
-                    -0.238, 0.0, 0.298, new Rotation3d(0.0, Math.sin(Timer.getTimestamp
-                    ()) - 1.0, 0.0))
-            });
-
+        Logger.recordOutput("FinalComponentPoses", new Pose3d[] {
+            new Pose3d(-0.238, 0.0, 0.298, new Rotation3d(0.0, Math.sin(Timer.getTimestamp()) - 1.0, 0.0))
+        });
     }
 
     /** This function is called once when the robot is disabled. */
