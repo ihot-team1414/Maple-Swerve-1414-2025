@@ -51,7 +51,7 @@
           },
           {
             "axis": "y",
-            "degrees": 0
+            "degrees": 180
           },
           {
             "axis": "z",
@@ -61,7 +61,7 @@
         "zeroedPosition": [
           0,
           0,
-          0.017
+          1.017
         ]
       },
       {
